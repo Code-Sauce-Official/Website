@@ -1,0 +1,321 @@
+
+.background{
+  width: 100vw;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.logo{
+  position: absolute;
+  width: 39.83px;
+  height: 33.9px;
+  left: 24px;
+  top: 6.5vh;
+}
+.code{
+  position: absolute;
+  left: 5vw;
+  top: 6.5vh;
+  color: white;
+}
+
+.sauce{
+  position: absolute;
+  left: 9.5vw;
+  top: 6.5vh;
+  color: #FF4D00;
+}
+
+.about_back{
+  position: absolute;
+  width: 20vw;
+  height: 53vh;
+  left: 66vw;
+  top: 59px;
+}
+
+.heading{
+  color: #FFA800;
+  position: absolute;
+  width: 190px;
+  height: 60px;
+  left: 225px;
+  top: 100px;
+  line-height: 60.34px;
+  font-size: 48px;
+}
+
+.l1{
+  position: absolute;
+  width: 422px;
+  height: 0px;
+  left: 0px;
+  top: 170px;
+  border: 2px solid #FFFFFF;
+  transform: rotate(180deg);
+}
+
+.desc{
+  position: absolute;
+  width: 584px;
+  height: 200px;
+  left: 111px;
+  top: 205px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.f1{
+  position: absolute;
+  width: 97px;
+  height: 98px;
+  left: 10vw;
+  top: 67.5vh;
+}
+.f2{
+  position: absolute;
+  width: 97px;
+  height: 98px;
+  left: 23.5vw;
+  top: 67.5vh;
+}
+.f3{
+  position: absolute;
+  width: 97px;
+  height: 98px;
+  left: 505px;
+  top: 67.5vh;
+}
+.f4{
+  position: absolute;
+  width: 97px;
+  height: 98px;
+  left: 691px;
+  top: 67.5vh;
+}
+.f5{
+  position: absolute;
+  width: 97px;
+  height: 98px;
+  left: 877px;
+  top: 67.5vh;
+}
+
+.team{
+  color: #FFA800;
+  position: absolute;
+  font-size: 3vw;
+  height: 60px;
+  left: 76vw;
+  top: 68vh;
+}
+
+.n1{
+  position: absolute;
+  width: 146px;
+  height: 28px;
+  left: 9vw;
+  top: 84vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 28px;
+  color: white;
+}
+.n2{
+  position: absolute;
+  width: 109px;
+  height: 28px;
+  left: 23vw;
+  top: 84vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+.n3{
+  position: absolute;
+  height: 28px;
+  left: 37vw;
+  top: 84vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+.n4{
+  position: absolute;
+  height: 28px;
+  left: 49.7vw;
+  top: 84vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+.n5{
+  position: absolute;
+  height: 28px;
+  left: 63.5vw;
+  top: 84vh;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+.c1{
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: 10vw;
+  top: 88.5vh;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1vw;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.c2{
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: 23.5vw;
+  top: 88.5vh;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1vw;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.c3{
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: 37.4vw;
+  top: 88.5vh;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1vw;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.c4{
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: 51vw;
+  top: 88.5vh;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1vw;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.c5{
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: 64vw;
+  top: 88.5vh;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1vw;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.l2{
+  position: absolute;
+  width: 25vw;
+  height: 0px;
+  right: 0vw;
+  top: 76.5vh;
+  border: 2px solid #FFFFFF;
+  transform: rotate(180deg);
+}
+.l3{
+  position: absolute;
+  width: 35vw;
+  height: 0px;
+  right: 17vw;
+  top: 96.6vh;
+  border: 1px solid #FFFFFF;
+  transform: rotate(180deg);
+}
+
+.copyright{
+  position: absolute;
+  right: 1vw;
+  top: 95vh;
+  font-style: normal;
+  font-size: 1.2vw;
+  line-height: 23px;
+  color: rgb(255, 255, 255);
+}
+.menu{
+  position: absolute;
+  width: 1.5vw;
+  right: 3vw;
+  top: 2vw;
+}
+.home{
+  position: absolute;
+  width: 1.5vw;
+  right: 3vw;
+  top: 6vw;
+}
+.user{
+  position: absolute;
+  width: 1.5vw;
+  right: 3vw;
+  top: 10vw;
+}
+.contact{
+  position: absolute;
+  width: 1.5vw;
+  right: 3vw;
+  top: 14vw;
+}
+.send{
+  position: absolute;
+  width: 1.5vw;
+  right: 3vw;
+  top: 18vw;
+}
+.dc{
+  position: absolute;
+  width: 4vw;
+  left: 2vw;
+  top: 90vh;
+}
