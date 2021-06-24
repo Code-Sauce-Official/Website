@@ -1,3 +1,132 @@
-.body {
-    color: black;
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+
+.main-container {
+  position: relative;
+  display: flex;
+  margin-left: 3vw;
+  margin-top: 100px;
+}
+
+.main-container>div {}
+.main-text{
+  margin-top: 20px;
+}
+.side-image {
+  position: relative;
+  margin-top: -50px;
+  width: 450px;
+  margin-left: 90px;
+}
+
+.main-heading h1 {
+  font-weight: 900;
+  font-size: 72px;
+  margin: 0;
+  line-height: 72px;
+}
+
+.main-content {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.footer{
+margin-top:20px;
+}
+.hr1{
+  position: relative;
+  margin-left:63vw;
+  width: 37.5vw;
+  border: 2px solid white;
+  background: white;
+  border-radius:20px;
+  margin-top:100px;
+}
+.l3{
+  position: relative;
+  margin-left: 39vw;
+  margin-top:40px;
+  width: 39vw;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+}
+.copyright{
+  position: relative;
+  margin-left: 80vw;
+  margin-top:-30px;
+  font-style: normal;
+  font-size:18px;
+  line-height: 23px;
+  color: rgb(255, 255, 255);
+}
+.dc{
+  position: relative;
+  width: 4vw;
+  margin-left: 2.55vw;
+  margin-top:-75px;
+}
+
+/*********nav*********/
+.dropdown-btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 1vh;
+
+}
+.dropdown-container {
+  display: none;
+}
+.dropdown-container a{
+  display: block;
+  margin-left:15px;
+  margin-top:25px;
+}
+.menu, .home , .user, .contact , .send{
+  width: 1.6vw;
+}
+.menu1{
+  width:2.2vw;
+}
+nav {
+  margin-top: 25px;
+}
+nav a{
+  text-decoration: none;
+}
+.brand-text,.brand-text2{
+  position: relative;
+  top:4px;
+  margin-left: 5px;
+ font-size: 30px;
+ font-weight: 700;
+}
+.brand-text2{
+  background-image:linear-gradient(180deg, #FFA800 0%, #FF4D00 100%);
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.my_brand {
+  width: 50px;
+  margin-left: 1.5vw;
+}
+.navbar-hamburger{
+  float:right;
+  margin-right: 1vw;
+  width: 4vw;
 }
