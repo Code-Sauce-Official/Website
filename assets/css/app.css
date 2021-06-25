@@ -13,8 +13,6 @@
 
   margin: 10vh 4vw;
 }
-
-.main-container>div {}
 .main-text{
   margin-top: 20px;
 }
@@ -98,7 +96,7 @@ div nav{
 }
 .dropdown-container {
   display: none;
-  position: relative;
+  position: absolute;
   z-index: 2;
 }
 .dropdown-container a{
@@ -147,4 +145,58 @@ nav a{
 }
 .menu-text{
   font-size:1.3vw;
+}
+/***********************************************************************contact*****************************************************/
+.cont-img{
+    position: relative;
+    width: 62vh;
+}
+.contact-container{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    margin:1.5vh auto;
+    width:80vw;
+
+}
+
+.form-body form ul li {
+  list-style-type: none;
+}
+.form-background, .form-background:focus, .form-background:active{
+  background-color: rgba(0,0,0,0);
+  border-radius: 10px;
+  height:8vh;
+}
+.form-background1, .form-background1:focus, .form-background1:active{
+  background-color: rgba(0,0,0,0);
+  border-radius: 10px;
+  height:17vh;
+}
+.form-background::placeholder, .form-background1::placeholder{
+  color:white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-header h1{
+  color:#FFA800;
+  font-weight: 700;
+  text-align: center;
+}
+.contact-form{
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+.form-body ul{
+  padding-left: 0;
+}
+.contact-submit{
+  text-align: center;
+  margin-top:2vh;
+}
+.contact-submit button {
+  background-color: #FFA800;
+  height:6vh;
+  border-radius:1vh;
+  border:none;
+  width:10vw;
 }
