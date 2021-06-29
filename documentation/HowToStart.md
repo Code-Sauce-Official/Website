@@ -13,9 +13,9 @@ Below you will find the process and workflow used to review and merge your chang
 - After this go to your terminal and clone this project on your desktop( git should be installed before - [link](https://git-scm.com/) ).
   
 ```  
-$ git clone https://github.com/<username>/FitMate.git
+$ git clone https://github.com/<username>/Website.git
 $ cd <repo-name>  
-$ git remote add upstream https://github.com/Code-Sauce-Official/FitMate.git
+$ git remote add upstream https://github.com/Code-Sauce-Official/Website.git
 ```  
 - Update your forked repo before working.  
 ```  
